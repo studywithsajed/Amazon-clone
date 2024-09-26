@@ -7,7 +7,6 @@
     display: flex;
     padding: -15px;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 }
 
@@ -23,7 +22,7 @@ $grid_breakpoint_sm: 540px;
 
 @media only screen and (min-width: $grid_breakpoint_sm) {
   .container {
-    // width: 100%;
+    width: 100%;
   }
  
   @for $i from 1 through 12 {
